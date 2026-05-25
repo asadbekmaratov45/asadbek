@@ -1,0 +1,125 @@
+#21
+# import math
+# x1=int(input("x1="))
+# x2=int(input("x2="))
+# x3=int(input("x3="))
+# y1=int(input("y1="))
+# y2=int(input("y2="))
+# y3=int(input("y3="))
+# a=math.sqrt((x2-x1)**2+(y2-y1)**2)
+# b=math.sqrt((x3-x2)**2+(y3-y2)**2)
+# c=math.sqrt((x3-x2)**2+(y3-y2)**2)
+# p=a+b+c
+# s=math.sqrt(p/2*(p/2-a)*(p/2-b)*(p/2-c))
+# print("Perimetri P=", p)
+# print("Yuzasi S=", s)
+#22
+# a,b=map(int, input().split())
+# b,a=a, b
+# print(a,b)
+#23
+# a, b, c=map(int, input().split())
+# b, c, a=a, b, c
+# print(a, b, c)
+#24
+# a, b, c=map(int, input().split())
+# c, a, b=a, b, c
+# print(a,b,c)
+#25
+# import math
+# x = int(input("x="))
+# y = 3 * math.pow(x, 6) - 6 * math.pow(x, 2) - 7
+# print(y)
+#26
+# import math
+# x=int(input("x="))
+# y = 4 * math.pow((x-3), 6) - 7 * math.pow((x-3), 3) + 2
+# print(y)
+#27
+# A=int(input("A="))
+# y1=A**2
+# y2=A**4
+# y3=A**8
+# print(y1,y2,y3)
+#28
+# A=int(input("A="))
+# y1=A**2
+# y2=A**3
+# y3=A**5
+# y4=A**10
+# y5=A**15
+# print(y1,y2,y3,y4,y5)
+#29
+# import math
+# a=int(input("a="))
+# rad = a * 2 * math.pi / 360
+# print(rad)
+#30
+# import math
+# a=int(input("a="))
+# grad = a * 360 / 2 * math.pi
+# print(grad)
+#31
+# Tf = int(input("Tf="))
+# Tc = (Tf - 32) * 5/9
+# print(Tc)
+#32
+# Tf = int(input("Tf="))
+# Tc = (Tf - 32) * 5/9
+# print(Tc)
+#33
+# x = int(input("x="))
+# a = int(input("a="))
+# y = int(input("y="))
+# z = (a * y) / x
+# print(z)
+#34
+# x = int(input("x="))
+# a = int(input("a="))
+# y = int(input("y="))
+# b = int(input("b="))
+# z= a / x - b / y
+# print(z)
+#35
+# v=int(input("v="))
+# u=int(input("u="))
+# t1=int(input("t1="))
+# t2=int(input("t2="))
+# s1=t1 * (v + u)
+# s2=t2 * (v - u)
+# print(s1,s2)
+#36, #37
+# s0=int(input("s0="))
+# v1=int(input("v1="))
+# v2=int(input("v2="))
+# t=int(input("t="))
+# s1=v1 * t
+# s2=v2 * t
+# s=s0+s1+s2
+# s3=s0-(s1+s2)
+# print(s, s3)
+#38
+# b=int(input("b="))
+# a=int(input("a="))
+# x= (-1) * b / a
+# print(x)
+#39
+# import math
+# A=int(input("A="))
+# B=int(input("B="))
+# C=int(input("C="))
+# D=B**2-4*A*C
+# x1=((-1)*B - math.sqrt(D))/2*A
+# x2=((-1)*B + math.sqrt(D))/2*A
+# print(x1,x2)
+#40
+# A1=int(input("A1="))
+# B1=int(input("B1="))
+# C1=int(input("C1="))
+# A2=int(input("A2="))
+# B2=int(input("B2="))
+# C2=int(input("C2="))
+# D=(A1*B2-A2*B1)
+# x=(C1*B2-C2*B1)/D
+# y=(A1*C2-A2*C1)/D
+# print(x,y)
